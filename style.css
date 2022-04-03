@@ -1,0 +1,70 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 60px;
+    padding-left: 120px;
+    filter: blur(8px);
+    font-size: 25px;
+    
+}.img {
+    display: flex;
+    padding-top: 20px;
+}
+.menu {
+    padding: 10px;
+    text-decoration: none;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 100px;
+    font-size: larger;
+    padding-top: 50px;
+    text-align: left;
+}
+.about1 {
+    margin: 2px;
+}
+.button {
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+body {
+    background-image: url(./images/pexels-andrew-mcmurtrie-3997905.jpg);
+    background-size: cover;
+    image-rendering: optimizeSpeed;
+    text-align: center;
+}
+.random {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+.container, .text {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.ii {
+    border-radius: 10%;
+}
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 45px;
+    padding: 75px;
+}
+.author {
+    padding-top: 220px;
+}
