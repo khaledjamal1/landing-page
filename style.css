@@ -4,7 +4,6 @@
     justify-content: space-between;
     padding-right: 60px;
     padding-left: 120px;
-    filter: blur(8px);
     font-size: 25px;
     
 }.img {
@@ -67,4 +66,40 @@ body {
 }
 .author {
     padding-top: 220px;
+}
+.lastt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.last {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-style: italic;
+
+}
+.button-2 {
+    height: 40px;
+    width: 105px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    justify-content: center;
+}
+.footer {
+    text-align: center;
 }
